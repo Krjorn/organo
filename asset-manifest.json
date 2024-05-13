@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/organo/static/css/main.29862004.css",
+    "main.js": "/organo/static/js/main.9d8479df.js",
+    "index.html": "/organo/index.html",
+    "main.29862004.css.map": "/organo/static/css/main.29862004.css.map",
+    "main.9d8479df.js.map": "/organo/static/js/main.9d8479df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29862004.css",
+    "static/js/main.9d8479df.js"
+  ]
+}
