@@ -1,0 +1,29 @@
+.team {
+    text-align: center;
+    padding: 32px;
+}
+
+.team h2 {
+    font-size: 2rem;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.team h2 span {
+    display: block;
+    width: 32px;
+    height: 4px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.collaborators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
