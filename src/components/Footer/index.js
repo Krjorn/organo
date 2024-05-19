@@ -1,4 +1,8 @@
 import './Footer.css';
+import facebookImg from '../../images/fb.png';
+import twitterImg from '../../images/tw.png';
+import instagramImg from '../../images/ig.png';
+import logo from '../../images/logo.png';
 
 const Footer = () => {
     return (
@@ -7,23 +11,23 @@ const Footer = () => {
             <ul>
                 <li>
                     <a href="facebook.com" target="_blank">
-                        <img src="./images/fb.png" alt="" />
+                        <img src={facebookImg} alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="twitter.com" target="_blank">
-                        <img src="./images/tw.png" alt="" />
+                        <img src={twitterImg} alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="instagram.com" target="_blank">
-                        <img src="./images/ig.png" alt="" />
+                        <img src={instagramImg} alt="" />
                     </a>
                 </li>
             </ul>
         </section>
         <section>
-            <img src="./images/logo.png" alt="" />
+            <img src={logo} alt="" />
         </section>
         <section>
             <p>
