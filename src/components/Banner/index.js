@@ -10,7 +10,7 @@ function Banner() {
                 Pessoas e times<br/>
                 <span>organizados em um só lugar!</span>
             </h1>
-            <img src={bannerImg} className='banner-img' />
+            <img src={bannerImg} alt='' className='banner-img' />
         </header>
     )
 }
